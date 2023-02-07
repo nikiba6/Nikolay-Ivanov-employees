@@ -3,7 +3,7 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using System.Globalization;
 
-Console.WriteLine("Hello, World!");
+
 var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture)
 {
     HasHeaderRecord = true,
